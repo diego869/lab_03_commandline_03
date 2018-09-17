@@ -20,6 +20,7 @@ Follow the instructions line-by-line.
 ==========
 3. Change your directory mtec1002-lab-03
 [NO OUTPUT]
+
 ----------
 ==========
 4. Create a directory called my_files
@@ -36,7 +37,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+foo.txt
 
 
 ==========
@@ -52,7 +53,10 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
-
+total 0
+-rw-r--r--  1 student  staff  0 Sep 17 16:40 bar.txt
+-rw-r--r--  1 student  staff  0 Sep 17 16:39 foo.txt
+ent-v314-004:my_files student$ 
 
 
 ==========
@@ -61,8 +65,12 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
+cp
 
-
+total 0
+-rw-r--r--  1 student  staff  0 Sep 17 16:40 bar.txt
+-rw-r--r--  1 student  staff  0 Sep 17 16:43 baz.txt
+-rw-r--r--  1 student  staff  0 Sep 17 16:39 foo.txt
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
@@ -70,14 +78,20 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
 ==========
-11. Move the file called foo.txt to qux.txt and then list the files again.
+rm
 
+total 0
+-rw-r--r--  1 student  staff  0 Sep 17 16:43 baz.txt
+-rw-r--r--  1 student  staff  0 Sep 17 16:39 foo.txt
+11. Move the file called foo.txt to qux.txt and then list the files again.
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
+mv
 
-
-
+total 0
+-rw-r--r--  1 student  staff  0 Sep 17 16:43 baz.txt
+-rw-r--r--  1 student  staff  0 Sep 17 16:39 qux.txt
 ==========
 12. Go up one directory so that you're in ~/mtec1002-lab-03.
 [NO OUTPUT]
@@ -90,17 +104,17 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
+rmdir
 
-
-
+directory was not empty so I could not delete the directory
 ==========
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
 ----------
+rm
 
-
-
+It removed it. because now it is a directory
 ==========
 15. MAKE SURE YOU'RE IN THE mtec1002-lab-03 directory!  
 
@@ -120,7 +134,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+It just coppied what I previously had typed
 
 
 ==========
@@ -132,7 +146,7 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Tittle: The Prince
 
 
 ==========
@@ -156,7 +170,10 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
-
+the less command will take you to another tab
+the more command
+spacebar will scroll down
+the q command is to quit
 
 
 ==========
