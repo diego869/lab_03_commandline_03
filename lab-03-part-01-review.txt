@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+popd
 
 
 ==========
@@ -23,7 +23,8 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+popd
+-bash: popd: directory stack empty
 
 
 ==========
@@ -31,14 +32,23 @@ Write the command that you used to do this - as well as its output - below :
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-
-
+Yes,
+I used the command: ls
+Adlm			Mr_T			foo
+Adobe			Mr_T_Fool		food
+Applications		Music			ipe.properties
+Desktop			New Unity Project	isus
+Documents		Pictures		mtec1002-lab-03
+Downloads		Public			mtec1002-lab-03.tar.gz
+Library			QLData			pymel.log
+MPLABXProjects		Things			xgen
+Movies			drills.py
 
 ==========
 4. If there are directories or files in your home directory that have the word mtec1002 in them, list them below (otherwise skip this step):
 ----------
-
-
+mtec1002-lab-03
+mtec1002-lab-03.tar.gz
 
 ==========
 5. Delete these directories from your home folder by using this command:
@@ -65,16 +75,25 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
+curl -O
+03/mtec1002-lab-03.tar.gz
 
-
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+ent-v314-00
 
 ==========
 7.  Uncompress the file that you just downloaded.
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
+wrote down the link the profferssor wrote on the board
+/Users/student/Downloads/mtec1003-lab-03.tar.gz 
 
 ==========
 8.  You should now have a directory called mtec1002-lab-03 in your home directory.  Verify that this directory exists.
@@ -88,9 +107,18 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
-
-
+popd
+-bash: popd: directory stack empty
+ls
+Adlm			Mr_T			foo
+Adobe			Mr_T_Fool		food
+Applications		Music			ipe.properties
+Desktop			New Unity Project	isus
+Documents		Pictures		mtec1002-lab-03
+Downloads		Public			mtec1002-lab-03.tar.gz
+Library			QLData			pymel.log
+MPLABXProjects		Things			xgen
+Movies			drills.py
 ==========
 9.  What directories are in the mtec1002-lab-03 folder?
 
