@@ -47,12 +47,15 @@ $ touch bar.txt
 ----------
 
 
-
 ==========
 8. List the files in this directory using the flag that gives the most details.
 
 Copy and paste the output below.
 ----------
+ls
+bar.txt	foo.txt
+
+
 total 0
 -rw-r--r--  1 student  staff  0 Sep 17 16:40 bar.txt
 -rw-r--r--  1 student  staff  0 Sep 17 16:39 foo.txt
@@ -113,7 +116,7 @@ directory was not empty so I could not delete the directory
 Write out the command that you used and what happened.
 ----------
 rm
-
+rm: my_files: is a directory
 It removed it. because now it is a directory
 ==========
 15. MAKE SURE YOU'RE IN THE mtec1002-lab-03 directory!  
@@ -171,7 +174,7 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
 the less command will take you to another tab
-the more command
+the more command shows you missing filename
 spacebar will scroll down
 the q command is to quit
 
@@ -181,15 +184,22 @@ the q command is to quit
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
-
+less/more length of a file if you cannot read the entire thing
+i wold use cat if i wanted to create single or multiple files, view contain of file, concatenate files or redirect output in terminal or files
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+wc: pg1232.txt: open: No such file or directory
+       0       0       0 total
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+lc pg1232.txt
+there were 3 lines:
+
+Mono License Compiler
+Copyright (c) 2009 by RemObjects Software
+Unexpected arguments passed on cmd line
