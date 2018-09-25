@@ -49,15 +49,28 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
+touch
 
-
+ls -t -r
+__MACOSX		ipe.properties		google.jpg		mtec1003-lab-03.tar.gz
+xgen			Pictures		google 3.jpg		mtec1003-lab-03
+isus			QLData			google 2.jpg		pg1232.txt
+Things			pymel.log		google.tar		Library
+Public			New Unity Project	google.html		Documents
+Music			drills.py		mtec1002-lab-02.zip	Downloads
+MPLABXProjects		mie			stuff			test
+Applications		metch1002		mtec1002-lab-02		Desktop
+Adobe			mtec1002		m			copy_to_backup.sh.
+Adlm			current			mmmmm.txt
+Movies			google.jpg.gz		eeee.sh
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
+-rw-r--r--
 
 What command did you use to find the permissions?
 ----------
-
+ls -l
 
 
 ==========
